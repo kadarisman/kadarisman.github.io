@@ -20,10 +20,11 @@ body, body * {
   }
   .prjk a{
       text-decoration: none;
+      color: #3b9412;
   }
   .active {
     color:white;
-    background-color: #44aa15;
+    font-weight: bold;
     padding: 5px;
     margin-right: 5px;
 }
