@@ -84,15 +84,39 @@ $('.active').click(function () {
     $('.link').removeClass('active');
     $(this).addClass('active');
 });
+
 $('#web').click(function () {
-    $('.desain').hide();
     $('.web').show();
+    $('.desain').hide();
+    $('.calligraphy').hide();
 });
+
 $('#desain').click(function () {
-    $('.web').hide();
     $('.desain').show();
+    $('.web').hide();
+    $('.calligraphy').hide();
 });
+
+$('#cally').click(function () {
+    $('.calligraphy').show();
+    $('.desain').hide();
+    $('.web').hide();
+});
+
 $('#all').click(function () {
     $('.web').show();
     $('.desain').show();
+    $('.calligraphy').show();
+});
+$('#bing').click(function () {
+    $('#secing').show();
+    $('#bindo').css("font-weight", "normal");
+    $('#secindo').hide();
+    $(this).css("font-weight", "Bold");
+});
+$('#bindo').click(function () {
+    $('#secing').hide();
+    $('#bing').css("font-weight", " normal");
+    $('#secindo').show();
+    $(this).css("font-weight", "Bold");
 });

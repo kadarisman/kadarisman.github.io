@@ -20,9 +20,17 @@ body, body * {
   }
   .prjk a{
       text-decoration: none;
-      color: #757a73;
+      padding: 2px;
+      margin-right: 5px;
+      color: #3b9412;
   }
-  .active {
-    color:white;
+  .active { 
+    font-weight: bold;
+    font-style: italic;
+    padding: 2px;
+    margin-right: 5px;
+}
+#bindo{
     font-weight: bold;
 }
+#secing { display: none; }
